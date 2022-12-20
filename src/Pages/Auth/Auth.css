@@ -1,0 +1,51 @@
+.btn-signIn{
+    /*background-color: yellowgreen;
+    */background-color: red;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    border: none;
+    /* background: none; */
+    padding: auto 20px;
+}
+.btn-signIn:hover{
+    background-color: red;
+}
+.f-btn{
+    margin: auto !important;
+    display: block !important;
+
+}
+.dont{
+    text-align: center !important;
+    margin-top: 1rem;
+    /* background-color: red !important; */
+}
+
+.link-danger{
+    cursor: pointer;
+}
+
+.yes{
+    text-align: center !important;
+    margin-top: 1rem;
+
+}
+.dont,.yes span{
+    margin-left: 10px;
+    /* display: inline-block; */
+}
+.up-link,.in-link{
+    cursor: pointer;
+}
+form input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+    
+}
+form input{
+    /* border: 2px solid red !important; */
+}

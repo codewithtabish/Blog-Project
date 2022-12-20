@@ -1,0 +1,27 @@
+.pop-con{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+ gap: 1rem;
+}
+.pop-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgb(236, 224, 206);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 5px;
+}
+.pop-box img{
+    width: 120px;
+    height: 120px;
+}
+.pop-meta{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}

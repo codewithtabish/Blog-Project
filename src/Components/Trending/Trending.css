@@ -1,0 +1,83 @@
+
+.trend-box{
+    position: relative;
+    /*background-color: red;
+    */text-align: center;
+   
+}
+.trend-img-con{
+    width: 100%;
+
+}
+.trend-img-con img{
+    width: 100%;
+    height: 200px;
+    /*height: 100%;
+    */object-fit: cover;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+}
+.trend-data{
+    margin-top: 10px;
+    /* position: absolute; */
+    bottom: 10%;
+    /* color: white; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    cursor: pointer;
+    color: gray;
+}
+
+
+.trend-title{
+    max-height: 70px;
+    /* color: red; */
+    overflow: hidden;
+    position: relative;
+}
+.trend-title::before{
+    position: absolute;
+    content: '...';
+    right: 0%;
+    bottom: 0%;
+    
+
+}
+
+
+.img-overlay{
+    /* position: absolute; */
+    /* top: 0%; */
+    /* left: 0%; */
+    /* right: 0%; */
+    /* bottom: 0%; */
+    /* background-color: ; */
+    /* background-color: red; */
+}
+.trend-img-con img::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+
+}
+.ah{
+    color: gray;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;
+
+}
+.ap{
+    text-align: justify;
+    font-size: 15px;
+    color: gray;
+}

@@ -1,0 +1,79 @@
+a{
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    color: white;
+    transition: all .8s;
+   
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+}
+a:hover{
+    color: white;
+}
+.my-nav{
+    background-color: gray !important;
+}
+.my-nav .active{
+    background-color: yellowgreen !important;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.my-prop{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: block;
+    /* display: inline-block; */
+}
+.propi{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+.propi p{
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+.lg-prop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.lg-prop img{
+    position: absolute;
+    /* right: 100%; */
+    /* left: 50%; */
+}
+.mm{
+    /* background-color: red!important ; */
+    position: absolute !important;
+    /* bottom: 0% !important; */
+    top: 60%;
+    right: -100% !important;
+    left: 30%;
+    margin-bottom: 20px;
+    /* margin-top: 10px; */
+
+}
+
+.my-naii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

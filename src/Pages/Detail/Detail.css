@@ -1,0 +1,46 @@
+.cons{
+    height: 50vh;
+ 
+}
+.overlay{
+    width: 100%;
+    background-color: red;
+    height: 50vh;
+    /* height: inherit; */
+}
+.overlay img{
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    object-position: center;
+}
+.img-title{
+    position: relative;
+}
+.single-title{
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    text-align: center;
+    /* right: 50%; */
+    transform: translate(-50%,-50%);
+   
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.detail-title{
+    color: white;
+    font-size: 34px;
+}
+.detail-date{
+    color: red;
+    /* color: white; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.single-desc{
+    text-align: justify;
+}

@@ -1,0 +1,42 @@
+.tags-con{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+    text-align: center;
+    grid-gap: 1rem;
+}
+.tag-box{
+    background-color: rgb(191, 202, 41);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(235, 206, 206);
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    margin-bottom: 5px;
+    /* color: red; */
+}
+.tag-box:hover{
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    /* color: red; */
+}
+
+.itemss{
+    background-color: red;
+}

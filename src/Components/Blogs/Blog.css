@@ -1,0 +1,92 @@
+.blog-box{
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+    justify-content: center;
+}
+.second-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    align-self: center;
+    /* align-items: center; */
+    /* background-color: red; */
+    /* position: relative; */
+}
+.my-badge{
+    position: absolute;
+    
+    left: 0%;
+    /* top: 0%; */
+
+    align-items: flex-start !important;
+    align-items: flex-start;
+    justify-self: self-start !important;
+    background-color: gray !important;
+    padding: 7px !important;
+    display: block;
+    /* margin-bottom: 100px; */
+    /* bottom: 10%; */
+    /* top: 10px; */
+    /* top: -3%; */
+    
+}
+.first-flex{
+    /* dis */
+}
+.main-box{
+    position: relative;
+}
+.btn-icons{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+.read-more{
+    background-color: gray !important;
+    color: white;
+    border: none;
+
+}
+.icons-div{
+    display: flex;
+    gap: 1rem;
+    /* cursor: pointer; */
+}
+
+@media (max-width:600px) {
+    .blog-box{
+        flex-direction: column;
+    }
+    .my-badge{
+        position: static;
+        width: fit-content;
+        align-self: flex-end;
+        height: auto !important;
+      
+        /* bottom: 10%; */
+    }
+    .blog-desc{
+        width: 80%;
+        text-align: justify;
+        color: red;
+        margin: auto;
+    }
+    
+}
+
+.first-flex img{
+    height: 220px !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.fa-trash{
+    color: rgb(248, 44, 44) !important;
+}
+.fa-edit{
+    color: green;
+}
